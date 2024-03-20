@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/siqagituser/SiqagittestProject
   gitUsername: siqagituser
   gitBranch: main
+services:
+- serviceName: project.siqagittest.integrations:test12
+  packages:
+  - name: SiqagittestProject
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.814
